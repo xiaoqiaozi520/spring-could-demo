@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.framework</groupId>
+	<artifactId>guludai-framework</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-FRAMEWORK</name>
+	<parent>
+		<relativePath />
+		<groupId>cn.guludai</groupId>
+		<artifactId>guludai</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modules>
+		<module>guludai-framework-cache</module>
+		<module>guludai-framework-datasource</module>
+		<module>guludai-framework-rocketmq</module>
+		<module>guludai-framework-toolkit</module>
+	</modules>
+</project>

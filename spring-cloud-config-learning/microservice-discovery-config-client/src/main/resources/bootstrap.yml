@@ -5,7 +5,7 @@ spring:
       profile: dev
       label: master   # 当configserver的后端存储是Git时，默认就是master 
   application:
-    name: heqiao
+    name: foobar
     
     
     

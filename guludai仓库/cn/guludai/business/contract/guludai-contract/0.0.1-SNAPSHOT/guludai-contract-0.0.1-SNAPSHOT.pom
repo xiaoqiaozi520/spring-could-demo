@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.contract</groupId>
+	<artifactId>guludai-contract</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-CONTRACT</name>
+	<parent>
+		<groupId>cn.guludai.container</groupId>
+		<artifactId>guludai-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<contract.version>0.0.1-SNAPSHOT</contract.version>
+		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+	</properties>
+	<modules>
+		<module>guludai-contract-api</module>
+		<module>guludai-contract-common</module>
+		<module>guludai-contract-domain</module>
+		<module>guludai-contract-service-protocol</module>
+		<module>guludai-contract-service-signature</module>
+		<module>guludai-contract-service-user</module>
+		<module>guludai-contract-web</module>
+	</modules>
+</project>

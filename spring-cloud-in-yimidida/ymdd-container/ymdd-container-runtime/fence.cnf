@@ -1,0 +1,2 @@
+fence.categroy=/*.js,/*.png,/*.gif,/*.jpg,/*.jpeg,/*.css,/*.woff2,/*.woff,/*.eot,/*.svg,/*ttf
+fence.prefix=/*/static/**

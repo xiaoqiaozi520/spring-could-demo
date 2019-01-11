@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 26 10:44:52 CST 2018
+http\://192.168.1.123\:8081/repository/maven-public/.error=
+http\://192.168.1.123\:8081/repository/maven-public/.lastUpdated=1529981092309

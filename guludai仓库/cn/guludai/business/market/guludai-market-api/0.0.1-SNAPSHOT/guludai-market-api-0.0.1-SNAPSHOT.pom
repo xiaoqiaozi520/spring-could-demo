@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.market</groupId>
+	<artifactId>guludai-market-api</artifactId>
+	<name>GULUDAI-MARKET-API</name>
+	<parent>
+		<artifactId>guludai-framework</artifactId>
+		<groupId>cn.guludai.framework</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<jar.sources>true</jar.sources>
+		<guludai-container-api.version>0.0.1-SNAPSHOT</guludai-container-api.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>cn.guludai.container</groupId>
+			<artifactId>guludai-container-api</artifactId>
+			<version>${guludai-container-api.version}</version>
+		</dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.poi</groupId>-->
+            <!--<artifactId>poi</artifactId>-->
+            <!--<version>RELEASE</version>-->
+        <!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.apache.poi</groupId>-->
+			<!--<artifactId>poi</artifactId>-->
+			<!--<version>RELEASE</version>-->
+		<!--</dependency>-->
+	</dependencies>
+</project>

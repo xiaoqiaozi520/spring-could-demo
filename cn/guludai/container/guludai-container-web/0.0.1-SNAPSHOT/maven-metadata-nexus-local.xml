@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>cn.guludai.container</groupId>
+  <artifactId>guludai-container-web</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180706.024716</timestamp>
+      <buildNumber>133</buildNumber>
+    </snapshot>
+    <lastUpdated>20180706024716</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20180706.024716-133</value>
+        <updated>20180706024716</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20180706.024716-133</value>
+        <updated>20180706024716</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

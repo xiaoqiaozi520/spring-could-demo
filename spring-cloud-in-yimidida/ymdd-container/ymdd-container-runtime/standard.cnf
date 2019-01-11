@@ -1,0 +1,3 @@
+standard.skip=/*,/*/login*,/*/logout*,/*/index*,/*/main,/*/icon,/*/error,/error,/*/wrong,/wrong
+standard.html=/*/static/*/**,/*/mvc/*/**
+standard.json=/*/api/*/**,/*/web/*/**

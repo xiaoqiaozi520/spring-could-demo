@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>cn.guludai.business.market</groupId>
+  <artifactId>guludai-market-common</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180302.092542</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20180302092542</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20180302.092542-3</value>
+        <updated>20180302092542</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20180302.092542-3</value>
+        <updated>20180302092542</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

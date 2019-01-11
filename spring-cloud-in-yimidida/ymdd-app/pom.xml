@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.ymdd.business.app</groupId>
+	<artifactId>ymdd-app</artifactId>
+	<packaging>pom</packaging>
+	<name>YMDD-APP</name>
+	<parent>
+		<groupId>com.ymdd.container</groupId>
+		<artifactId>ymdd-spring-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<app.version>0.0.1-SNAPSHOT</app.version>
+	</properties>
+	<modules>
+		<!--<module>ymdd-app-api</module>-->
+		<!--<module>ymdd-app-common</module>-->
+		<!--<module>ymdd-app-domain</module>-->
+		<!--<module>ymdd-app-service</module>-->
+		<!--<module>ymdd-app-web</module>-->
+	</modules>
+</project>
