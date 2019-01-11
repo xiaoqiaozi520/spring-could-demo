@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.pay</groupId>
+	<artifactId>guludai-pay</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-PAY</name>
+	<parent>
+		<groupId>cn.guludai.container</groupId>
+		<artifactId>guludai-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<pay.version>0.0.1-SNAPSHOT</pay.version>
+		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+	</properties>
+	<modules>
+		<module>guludai-pay-api</module>
+		<module>guludai-pay-common</module>
+		<module>guludai-pay-domain</module>
+		<module>guludai-pay-service-base</module>
+		<module>guludai-pay-service-payment</module>
+		<module>guludai-pay-service-project</module>
+		<module>guludai-pay-web</module>
+	</modules>
+</project>

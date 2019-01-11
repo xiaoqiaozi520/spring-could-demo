@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.folder</groupId>
+	<artifactId>guludai-folder</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-FOLDER</name>
+	<parent>
+		<groupId>cn.guludai.container</groupId>
+		<artifactId>guludai-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<folder.version>0.0.1-SNAPSHOT</folder.version>
+		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+	</properties>
+	<modules>
+		<module>guludai-folder-api</module>
+		<module>guludai-folder-common</module>
+		<module>guludai-folder-domain</module>
+		<module>guludai-folder-service</module>
+		<module>guludai-folder-web</module>
+	</modules>
+</project>

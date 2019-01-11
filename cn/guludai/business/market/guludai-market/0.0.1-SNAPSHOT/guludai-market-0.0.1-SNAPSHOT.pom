@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.market</groupId>
+	<artifactId>guludai-market</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-MARKET</name>
+	<parent>
+		<groupId>cn.guludai.container</groupId>
+		<artifactId>guludai-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<market.version>0.0.1-SNAPSHOT</market.version>
+		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+	</properties>
+	<modules>
+		<module>guludai-market-api</module>
+		<module>guludai-market-common</module>
+		<module>guludai-market-domain</module>
+		<module>guludai-market-service-config</module>
+		<module>guludai-market-service-contractor</module>
+		<module>guludai-market-service-saler</module>
+		<module>guludai-market-service-user</module>
+		<module>guludai-market-web</module>
+	</modules>
+</project>

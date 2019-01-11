@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.guludai.business.folder</groupId>
+  <artifactId>guludai-folder-service</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180620085024</lastUpdated>
+  </versioning>
+</metadata>

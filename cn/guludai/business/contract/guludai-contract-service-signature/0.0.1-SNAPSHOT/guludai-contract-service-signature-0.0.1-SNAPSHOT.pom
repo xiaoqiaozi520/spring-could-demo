@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>guludai-contract-service-signature</artifactId>
+	<name>GULUDAI-CONTRACT-SERVICE-SIGNATURE</name>
+	<parent>
+		<groupId>cn.guludai.business.contract</groupId>
+		<artifactId>guludai-contract</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<artifactId>guludai-contract-domain</artifactId>
+			<groupId>cn.guludai.business.contract</groupId>
+			<version>${contract.version}</version>
+		</dependency>
+
+
+
+	</dependencies>
+</project>

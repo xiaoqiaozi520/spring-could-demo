@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.container</groupId>
+	<artifactId>guludai-container</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-CONTAINER</name>
+	<parent>
+		<relativePath />
+		<groupId>cn.guludai</groupId>
+		<artifactId>guludai</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+	</properties>
+	<modules>
+		<module>guludai-container-api</module>
+		<module>guludai-container-runtime</module>
+		<module>guludai-container-web</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+		</dependency>
+	</dependencies>
+</project>

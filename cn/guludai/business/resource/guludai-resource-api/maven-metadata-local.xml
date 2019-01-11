@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cn.guludai.business.resource</groupId>
+  <artifactId>guludai-resource-api</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180625071046</lastUpdated>
+  </versioning>
+</metadata>

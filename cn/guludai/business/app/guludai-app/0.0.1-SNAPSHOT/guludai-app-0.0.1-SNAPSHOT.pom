@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.guludai.business.app</groupId>
+	<artifactId>guludai-app</artifactId>
+	<packaging>pom</packaging>
+	<name>GULUDAI-APP</name>
+	<parent>
+		<groupId>cn.guludai.container</groupId>
+		<artifactId>guludai-container</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<properties>
+		<app.version>0.0.1-SNAPSHOT</app.version>
+	</properties>
+	<modules>
+		<module>guludai-app-api</module>
+		<module>guludai-app-common</module>
+		<module>guludai-app-domain</module>
+		<module>guludai-app-service</module>
+		<module>guludai-app-web</module>
+	</modules>
+</project>
