@@ -1,26 +1,33 @@
-/*    */ package cn.guludai.container.web.restful;
-/*    */ 
-/*    */ import cn.guludai.container.runtime.profile.RuntimeEnvironment;
-/*    */ import cn.guludai.framework.toolkit.util.StringUtil;
-/*    */ import java.util.HashMap;
-/*    */ import java.util.Map;
-/*    */ 
-/*    */ final class RestfulProperties
-/*    */ {
-/*    */   public static final String RESTFUL_STATIC_RESOURCE = "spring.static.resources";
-/* 19 */   public static final Map<String, String[]> RESTFUL_STATIC_RESOURCE_VALUE = new HashMap() { } ;
-/*    */   public static final String RESTFUL_CLIENT_TIMEOUT = "feign.timeout";
-/*    */   public static final String RESTFUL_CLIENT_TIMEOUT_VALUE = "5000,10000";
-/*    */   public static final String RESTFUL_CLIENT_NAME = "ribbon.client.name";
-/*    */ 
-/*    */   public static final Integer[] getClientTimeout() {
-/* 29 */     String[] times = StringUtil.split("5000,10000", ",");
-/* 30 */     String time = RuntimeEnvironment.getProperties("feign.timeout");
-/* 31 */     return new Integer[] { Integer.valueOf(Integer.parseInt(times[0])), Integer.valueOf(Integer.parseInt(StringUtil.isEmpty(time) ? times[1] : time)) };
-/*    */   }
-/*    */ }
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
 
-/* Location:           C:\Users\Administrator\Desktop\container\guludai-container-web\0.0.1-SNAPSHOT\guludai-container-web-0.0.1-20180428.084950-107.jar
- * Qualified Name:     cn.guludai.container.web.restful.RestfulProperties
- * JD-Core Version:    0.6.0
- */
+package cn.ymdd.container.web.restful;
+
+import cn.ymdd.container.runtime.profile.RuntimeEnvironment;
+import cn.ymdd.framework.toolkit.util.StringUtil;
+import java.util.HashMap;
+import java.util.Map;
+
+final class RestfulProperties {
+    public static final String RESTFUL_STATIC_RESOURCE = "spring.static.resources";
+    public static final Map<String, String[]> RESTFUL_STATIC_RESOURCE_VALUE = new HashMap<String, String[]>() {
+        {
+            this.put("/templates/**", new String[]{"classpath:/templates/"});
+            this.put("/static/**", new String[]{"classpath:/static/"});
+        }
+    };
+    public static final String RESTFUL_CLIENT_TIMEOUT = "feign.timeout";
+    public static final String RESTFUL_CLIENT_TIMEOUT_VALUE = "5000,10000";
+    public static final String RESTFUL_CLIENT_NAME = "ribbon.client.name";
+
+    RestfulProperties() {
+    }
+
+    public static final Integer[] getClientTimeout() {
+        String[] times = StringUtil.split("5000,10000", ",");
+        String time = RuntimeEnvironment.getProperties("feign.timeout");
+        return new Integer[]{Integer.parseInt(times[0]), Integer.parseInt(StringUtil.isEmpty(time) ? times[1] : time)};
+    }
+}

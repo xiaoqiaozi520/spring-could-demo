@@ -1,26 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>guludai-container-runtime</artifactId>
-	<name>GULUDAI-CONTAINER-RUNTIME</name>
+	<artifactId>ymdd-container-runtime</artifactId>
+	<name>YMDD-CONTAINER-RUNTIME</name>
 	<parent>
-		<groupId>cn.guludai.container</groupId>
-		<artifactId>guludai-container</artifactId>
+		<groupId>cn.ymdd.container</groupId>
+		<artifactId>ymdd-container</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<properties>
-		<guludai-container-api.version>0.0.1-SNAPSHOT</guludai-container-api.version>
-		<guludai-framework-toolkit.version>0.0.1-SNAPSHOT</guludai-framework-toolkit.version>
+		<ymdd-container-api.version>0.0.1-SNAPSHOT</ymdd-container-api.version>
+		<ymdd-framework-toolkit.version>0.0.1-SNAPSHOT</ymdd-framework-toolkit.version>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>cn.guludai.container</groupId>
-			<artifactId>guludai-container-api</artifactId>
-			<version>${guludai-container-api.version}</version>
+			<groupId>cn.ymdd.container</groupId>
+			<artifactId>ymdd-container-api</artifactId>
+			<version>${ymdd-container-api.version}</version>
 		</dependency>
 		<dependency>
-			<artifactId>guludai-framework-toolkit</artifactId>
-			<groupId>cn.guludai.framework</groupId>
-			<version>${guludai-framework-toolkit.version}</version>
+			<artifactId>ymdd-framework-toolkit</artifactId>
+			<groupId>cn.ymdd.framework</groupId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>

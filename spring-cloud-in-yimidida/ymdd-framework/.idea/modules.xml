@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ymdd-framework.iml" filepath="$PROJECT_DIR$/ymdd-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-framework-cache/ymdd-framework-cache.iml" filepath="$PROJECT_DIR$/ymdd-framework-cache/ymdd-framework-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-framework-datasource/ymdd-framework-datasource.iml" filepath="$PROJECT_DIR$/ymdd-framework-datasource/ymdd-framework-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-framework-rocketmq/ymdd-framework-rocketmq.iml" filepath="$PROJECT_DIR$/ymdd-framework-rocketmq/ymdd-framework-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-framework-toolkit/ymdd-framework-toolkit.iml" filepath="$PROJECT_DIR$/ymdd-framework-toolkit/ymdd-framework-toolkit.iml" />
+    </modules>
+  </component>
+</project>

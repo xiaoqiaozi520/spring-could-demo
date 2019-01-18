@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ymdd-container-api" />
+        <module name="ymdd-container-runtime" />
+        <module name="ymdd-container-web" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ymdd-container" target="1.5" />
-      <module name="ymdd-container-runtime" target="1.5" />
+      <module name="guludai-container-api" target="1.8" />
+      <module name="guludai-container-runtime" target="1.8" />
+      <module name="guludai-container-runtime (1)" target="1.8" />
+      <module name="guludai-container-runtime (1) (com.ymdd)" target="1.8" />
+      <module name="guludai-container-runtime (2)" target="1.5" />
+      <module name="ymdd-container" target="1.8" />
+      <module name="ymdd-container-api" target="1.8" />
+      <module name="ymdd-container-runtime" target="1.8" />
+      <module name="ymdd-container-runtime (1)" target="1.8" />
+      <module name="ymdd-container-runtime (2) (cn.guludai.container)" target="1.8" />
+      <module name="ymdd-container-web" target="1.8" />
       <module name="ymdd-spring-cloud" target="1.8" />
       <module name="ymdd-spring-container" target="1.8" />
     </bytecodeTargetLevel>

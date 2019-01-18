@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ymdd-container-api/pon.xml" />
+        <option value="$PROJECT_DIR$/ymdd-container-runtime/pom.properties" />
+        <option value="$PROJECT_DIR$/ymdd-container-runtime/pom.xml" />
       </list>
     </option>
   </component>

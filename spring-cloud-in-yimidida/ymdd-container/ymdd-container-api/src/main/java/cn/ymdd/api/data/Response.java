@@ -1,7 +1,7 @@
-/*     */ package cn.guludai.api.data;
+/*     */ package cn.ymdd.api.data;
 /*     */ 
-/*     */ import cn.guludai.api.Code;
-/*     */ import cn.guludai.api.code.BaseCode;
+/*     */ import cn.ymdd.api.Code;
+/*     */ import cn.ymdd.api.code.BaseCode;
 /*     */ import com.alibaba.fastjson.annotation.JSONField;
 /*     */ import io.swagger.annotations.Api;
 /*     */ import io.swagger.annotations.ApiModelProperty;
@@ -60,7 +60,7 @@
 /*     */   public <T> Response<T> setSignature(String signature)
 /*     */   {
 /*  74 */     this.signature = signature;
-/*  75 */     return this;
+/*  75 */     return (Response<T>) this;
 /*     */   }
 /*     */ 
 /*     */   public T getData() {
@@ -69,7 +69,7 @@
 /*     */ 
 /*     */   public Response<T> setData(Object data)
 /*     */   {
-/*  84 */     this.data = data;
+/*  84 */     this.data = (T) data;
 /*  85 */     return this;
 /*     */   }
 /*     */ 

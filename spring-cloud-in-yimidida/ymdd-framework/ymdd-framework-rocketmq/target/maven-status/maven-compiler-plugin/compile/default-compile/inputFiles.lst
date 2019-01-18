@@ -1,0 +1,14 @@
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\client\RocketmqModel.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQMessage.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\client\RocketmqConfigurator.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQConfigurator.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\client\RocketmqConsumer.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQResult.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQProducer.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQError.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQConsumer.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\client\RocketmqProducer.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\bind\RocketMQ.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\client\RocketmqProperties.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQMetadata.java
+E:\demo\git\spring-could-demo\spring-cloud-in-yimidida\ymdd-framework\ymdd-framework-rocketmq\src\main\java\cn.ymdd.framework.rocketmq\standard\MQLifecycle.java

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ymdd-container.iml" filepath="$PROJECT_DIR$/ymdd-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-container-api/ymdd-container-api.iml" filepath="$PROJECT_DIR$/ymdd-container-api/ymdd-container-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-container-runtime/ymdd-container-runtime.iml" filepath="$PROJECT_DIR$/ymdd-container-runtime/ymdd-container-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymdd-container-web/ymdd-container-web.iml" filepath="$PROJECT_DIR$/ymdd-container-web/ymdd-container-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/ymdd-spring-cloud.iml" filepath="$PROJECT_DIR$/ymdd-spring-cloud.iml" />
     </modules>
   </component>

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.ymdd.framework</groupId>
+	<artifactId>ymdd-framework</artifactId>
+	<packaging>pom</packaging>
+	<name>YMDD-FRAMEWORK</name>
+	<parent>
+		<relativePath />
+		<groupId>cn.ymdd</groupId>
+		<artifactId>ymdd</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modules>
+		<module>ymdd-framework-cache</module>
+		<module>ymdd-framework-datasource</module>
+		<module>ymdd-framework-rocketmq</module>
+		<module>ymdd-framework-toolkit</module>
+	</modules>
+</project>

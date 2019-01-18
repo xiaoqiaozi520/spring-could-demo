@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ymdd-framework-cache" />
+        <module name="ymdd-framework-datasource" />
+        <module name="ymdd-framework-rocketmq" />
+        <module name="ymdd-framework-toolkit" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guludai-framework-cache" target="1.8" />
+      <module name="ymdd-framework" target="1.8" />
+      <module name="ymdd-framework-cache" target="1.8" />
+      <module name="ymdd-framework-datasource" target="1.8" />
+      <module name="ymdd-framework-rocketmq" target="1.8" />
+      <module name="ymdd-framework-toolkit" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

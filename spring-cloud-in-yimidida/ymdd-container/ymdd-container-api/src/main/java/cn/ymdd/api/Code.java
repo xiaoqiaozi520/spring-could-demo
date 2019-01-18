@@ -1,4 +1,4 @@
-package cn.guludai.api;
+package cn.ymdd.api;
 
 public abstract interface Code
 {

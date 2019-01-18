@@ -1,6 +1,6 @@
-/*    */ package cn.guludai.api.code;
+/*    */ package cn.ymdd.api.code;
 /*    */ 
-/*    */ import cn.guludai.api.Code;
+/*    */ import cn.ymdd.api.Code;
 /*    */ 
 /*    */ public enum BaseCode
 /*    */   implements Code
