@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b4c26a-bb93-4f83-bff1-56229338d0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-api/ymdd-container-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ymdd-container/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/ymdd-container-api/src/main/java/cn/ymdd/api/data/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-api/src/main/java/cn/ymdd/api/data/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/fence/HttpFenceContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/fence/HttpFenceContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/log/AccessId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/log/AccessId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/log/AccessLogFence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-container/ymdd-container-runtime/src/main/java/cn/ymdd/container/runtime/log/AccessLogFence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ymdd-framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ymdd-framework/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
